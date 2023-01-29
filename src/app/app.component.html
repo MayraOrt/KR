@@ -11,6 +11,18 @@
     <h1>UNSERE REZEPTE</h1>
     <P>Unsere Rezepte werden aus frischen Zutaten hergestellt, die mit Liebe angebaut und geerntet werden.</P>
   </div>
+
   <div class="recipes-grid">
+    <app-recipe-card *ngFor="let recipe of recipes" [recipe]="recipe"></app-recipe-card>
   </div>
+
+</div>
+
+<div class="ingredients-section">
+  <div class="ingrediets-text">
+    <h1>UNSERE ZUTATEN</h1>
+    <P>zutaten</P>
+  </div>
+
+
 </div>

@@ -1,1 +1,6 @@
-<p>recipe-card works!</p>
+<div class="recipe-card-container" *ngIf="recipe">
+  <div class="recipe-image-container">
+    <img [src]="recipe.image" alt="recipe-image">
+  </div>
+  <div>{{recipe.name}}</div>
+</div>
