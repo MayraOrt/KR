@@ -19,10 +19,13 @@
 </div>
 
 <div class="ingredients-section">
-  <div class="ingrediets-text">
+  <div class="ingredients-text">
     <h1>UNSERE ZUTATEN</h1>
     <P>zutaten</P>
   </div>
 
+  <div class="ingredients-grid">
+    <app-ingredient-card *ngFor="let ingredient of ingredients" [ingredient]="ingredient"></app-ingredient-card>
+  </div>
 
 </div>

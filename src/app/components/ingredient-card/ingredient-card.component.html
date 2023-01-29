@@ -1,0 +1,21 @@
+<mat-card class="ingredient-card" *ngIf="ingredient">
+  <mat-card-header>
+    <mat-card-title-group class="ingredient-header">
+      <mat-card-title>{{ingredient.bezeichnung}}</mat-card-title>
+      <div class="image-in-card-wrapper" *ngIf="ingredient.image && ingredient.image.length > 0" >
+        <img [src]="ingredient.image">
+      </div>
+    </mat-card-title-group>
+  </mat-card-header>
+  <mat-card-content>
+
+    <mat-list>
+      <mat-list-item>
+        <span matListItemTitle>{{ingredient.kalorien}} Kca</span>
+        <span matListItemLine>{{ingredient.co2_aequivalente}} CO2</span>
+        <span matListItemLine>{{ingredient.kohlenhydrate}} Kh</span>
+      </mat-list-item>
+    </mat-list>
+
+  </mat-card-content>
+</mat-card>

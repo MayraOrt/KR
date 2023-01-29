@@ -2,50 +2,68 @@ import { Recipe } from "../model/recipe.model";
 
 export const RECIPES:Recipe[] = [
   {
-    name:'zucchini suppe',
-    image: 'https://images.unsplash.com/photo-1503764654157-72d979d9af2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80',
+    name:'Zucchini-Suppe',
+    image: 'assets/recipes/1.png',
     ingredients: [],
     preparation: ''
   },
   {
-    name:'zucchini suppe',
-    image: 'https://images.unsplash.com/photo-1503764654157-72d979d9af2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80',
+    name:'Kartoffel-Lauch-Suppe',
+    image: 'assets/recipes/2.jpeg',
     ingredients: [],
     preparation: ''
   },
   {
-    name:'zucchini suppe',
-    image: 'https://images.unsplash.com/photo-1503764654157-72d979d9af2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80',
+    name:'Zucchini-Couscous-Pfanne',
+    image: 'assets/recipes/3.png',
     ingredients: [],
     preparation: ''
   },
   {
-    name:'zucchini suppe',
-    image: 'https://images.unsplash.com/photo-1503764654157-72d979d9af2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80',
+    name:'Laktosefreie Karotten-Suppe',
+    image: 'assets/recipes/4.png',
     ingredients: [],
     preparation: ''
   },
   {
-    name:'zucchini suppe',
-    image: 'https://images.unsplash.com/photo-1503764654157-72d979d9af2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80',
+    name:'Vegane Paprika-Bohnen-Pfanne',
+    image: 'assets/recipes/5.png',
     ingredients: [],
     preparation: ''
   },
   {
-    name:'zucchini suppe',
-    image: 'https://images.unsplash.com/photo-1503764654157-72d979d9af2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80',
+    name:'Vegetarische Kartoffel-Lauch-Quiche',
+    image: 'assets/recipes/6.jpeg',
     ingredients: [],
     preparation: ''
   },
   {
-    name:'zucchini suppe',
-    image: 'https://images.unsplash.com/photo-1503764654157-72d979d9af2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80',
+    name:'Vegetarische Kichererbsen-Couscous-Pfanne',
+    image: 'assets/recipes/7.png',
     ingredients: [],
     preparation: ''
   },
   {
-    name:'zucchini suppe',
-    image: 'https://images.unsplash.com/photo-1503764654157-72d979d9af2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80',
+    name:'Low Carb Zucchini-Hackfleisch-Pfanne',
+    image: 'assets/recipes/8.png',
+    ingredients: [],
+    preparation: ''
+  },
+  {
+    name:'Fettarme Hähnchenbrust-Gemüse-Pfanne',
+    image: 'assets/recipes/9.png',
+    ingredients: [],
+    preparation: ''
+  },
+  {
+    name:'High Protein Tofu-Couscous-Pfanne',
+    image: 'assets/recipes/10.png',
+    ingredients: [],
+    preparation: ''
+  },
+  {
+    name:'Glutenfreie Süßkartoffel-Apfel-Pfanne',
+    image: 'assets/recipes/11.png',
     ingredients: [],
     preparation: ''
   },
