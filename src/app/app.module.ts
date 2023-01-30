@@ -12,10 +12,11 @@ import { MatListModule } from '@angular/material/list'
 import { MatFormFieldModule } from '@angular/material/form-field'
 import { MatInputModule } from '@angular/material/input'
 import { MatButtonModule } from '@angular/material/button'
-import { MatIconModule } from '@angular/material/icon'
+import { MatIconModule } from '@angular/material/icon';
+import { FooterComponent } from './components/footer/footer.component'
 
 @NgModule({
-  declarations: [AppComponent, RecipeCardComponent, IngredientCardComponent],
+  declarations: [AppComponent, RecipeCardComponent, IngredientCardComponent, FooterComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
